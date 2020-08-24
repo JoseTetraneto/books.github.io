@@ -33,6 +33,11 @@
     border-right-width: 1px;
 }
 
+.column p {
+    font-size: small;
+    color: gray;
+}
+
 .row:after {
     content: "";
     display: table;
