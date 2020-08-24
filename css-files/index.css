@@ -33,9 +33,17 @@
     border-right-width: 1px;
 }
 
-.column-quote {
+.column-writer {
     font-size: small;
     color: gray;
+}
+
+.column-quote {
+    font-size: medium;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    
 }
 
 .row:after {
