@@ -50,8 +50,9 @@
     border-right-width: 1px;
 }
 
-
-/* Clear floats after the columns */
+.blockquote {
+    font-size: medium;
+}
 
 .row:after {
     content: "";
