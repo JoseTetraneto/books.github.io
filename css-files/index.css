@@ -50,8 +50,8 @@
     border-right-width: 1px;
 }
 
-.blockquote {
-    font-size: medium;
+.blockquote p {
+    font-size: small;
 }
 
 .row:after {
