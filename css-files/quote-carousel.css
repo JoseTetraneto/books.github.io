@@ -7,7 +7,6 @@
   /* Slides */
   .mySlides {
     display: none;
-    padding: 80px;
     text-align: center;
     background: white;
   }
@@ -43,8 +42,6 @@
   /* The dot/bullet/indicator container */
   .dot-container {
     text-align: center;
-    padding: 20px;
-    background: #ddd;
   }
   
   /* The dots/bullets/indicators */
