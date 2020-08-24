@@ -42,6 +42,7 @@
   /* The dot/bullet/indicator container */
   .dot-container {
     text-align: center;
+    background: white;
   }
   
   /* The dots/bullets/indicators */
