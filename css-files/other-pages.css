@@ -14,7 +14,9 @@
     font-size: small;
 }
 
-
+th, td {
+    padding: 15px;
+}
 /* Styles signature */
 
 .signature {
