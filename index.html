@@ -5,12 +5,28 @@
             Books
         </title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <style>
+        	@media screen and (max-width: 500px) {
+			.containter-fluid h1 {
+    			float: none;
+    			display: block;
+    			text-align: left;
+  			}
+            .containter-fluid span {
+    			float: none;
+    			display: block;
+    			text-align: left;
+  			}
+  			.container-fluid p {
+    			float: none;
+  			}
+    	</style>
     </head>
     <body>
-        <!-- Top Section -->
         <div class="container-fluid" style="background-color: mediumseagreen; color: white;">
             <h1 style="display: inline">Books</h1>
             <span style="margin-left: 10px; font-size: small;">THE BEST PLACE TO GET TO KNOW THEM IS <strong>HERE</strong></span>
+            <p style="display: block-inline; float: right; align: center; font-size: small;">Developed by <strong>Jose Tetraneto</strong></p>
         </div>
         <!-- Navbar -->
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
@@ -30,9 +46,5 @@
                 </li>
             </ul>
         </nav>
-        <!-- Signature -->
-        <div>
-        	<p style="display: block-inline; text-align: center; font-size: small;">Developed by <strong>Jose Tetraneto</strong></p>
-        </div>
     </body>
 </html>
