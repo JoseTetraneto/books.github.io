@@ -34,12 +34,12 @@
 }
 
 .column-writer {
-    font-size: small;
+    font-size: smaller;
     color: gray;
 }
 
 .column-quote {
-    font-size: medium;
+    font-size: large;
     font-style: italic;
     font-family: 'Times New Roman', Times, serif;
     color: black;
