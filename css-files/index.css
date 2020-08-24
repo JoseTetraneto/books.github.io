@@ -43,6 +43,10 @@
     padding: 10px;
 }
 
+#first-column {
+    margin-left: -5px;
+}
+
 #second-column {
     border-left-style: solid;
     border-left-width: 1px;
