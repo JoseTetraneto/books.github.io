@@ -15,12 +15,39 @@
 }
 
 
+/* Styles top section of website */
+
+#top-section {
+    background-color: mediumseagreen;
+    color: white;
+}
+
+#top-section-header {
+    display: inline;
+}
+
+#top-section-span {
+    margin-left: 10px;
+    font-size: small;
+}
+
+
+/* Styles main content section of website */
+
+
 /* Create three equal columns that floats next to each other */
 
 .column {
     float: left;
     width: 33.33%;
     padding: 10px;
+}
+
+#second-column {
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
 }
 
 
@@ -30,4 +57,25 @@
     content: "";
     display: table;
     clear: both;
+}
+
+.row {
+    margin-left: -px;
+}
+
+
+/* Styles video */
+
+.video {
+    margin: 0 auto;
+    display: block;
+}
+
+
+/* Styles signature */
+
+.signature {
+    display: block-inline;
+    text-align: center;
+    font-size: small;
 }
