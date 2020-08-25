@@ -14,10 +14,22 @@
     font-size: small;
 }
 
-th, td {
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    text-align: center;
     padding: 5px;
-    border: 1px solid black;
-}
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
 /* Styles signature */
 
 .signature {
