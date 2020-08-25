@@ -26,11 +26,11 @@ table {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   tr:nth-child(even) {
-    background-color: #7affad;
+    background-color: #dfdfdf;
   }
 
 #header4-curiosities h4 {
-    background-color: rgb(175, 255, 179);
+    color: grey;
     font-style: italic;
 
 }
