@@ -23,16 +23,24 @@ table {
     border: 1px solid #ddd;
     text-align: center;
     padding: 5px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', sans-serif;
   }
   tr:nth-child(even) {
     background-color: #dfdfdf;
   }
 
-#header4-curiosities {
-    color: grey;
+#header2-curiosities {
     font-style: italic;
+}
 
+#span-curiosities {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+#header4-curiosities {
+    color: rgb(39, 39, 39);
+    font-style: italic;
 }
 
 /* Styles signature of all pages*/
