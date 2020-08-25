@@ -15,7 +15,8 @@
 }
 
 th, td {
-    padding: 15px;
+    padding: 5px;
+    border: 1px solid black;
 }
 /* Styles signature */
 
