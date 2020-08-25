@@ -1,25 +1,9 @@
-/* Styles top section of website */
-
-#top-section {
-    background-color: #3cb371;
-    color: #ffffff;
-}
-
-#top-section-header {
-    display: inline;
-}
-
-#top-section-span {
-    margin-left: 10px;
-    font-size: small;
-}
-
-
 /* Styles the top nav of website */
 
 .topnav {
     overflow: hidden;
     background-color: #333;
+    font-weight: bold;
 }
 
 .topnav a {
@@ -75,46 +59,16 @@
 
 /* Styles the Home page */
 
-.index-row {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.index-left-column {
-    flex: 40%;
-    padding-left: 3px;
-    padding-right: 3px;
-}
-
-.index-right-column {
-    flex: 60%;
-    padding-left: 3px;
-    padding-right: 3px;
-}
-
-.index-column-writer {
+.index-writer {
     font-size: smaller;
     color: #808080;
 }
 
-.index-column-quote {
+.index-quote {
     font-size: medium;
     font-style: italic;
     font-family: 'Times New Roman', Times, serif;
     color: #000000;
-}
-
-@media screen and (max-width: 600px) {
-    .row {
-        flex-direction: column;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    .navbar a {
-        float: none;
-        width: 100%;
-    }
 }
 
 .video {
