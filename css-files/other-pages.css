@@ -23,7 +23,6 @@ table {
     border: 1px solid #ddd;
     text-align: center;
     padding: 5px;
-    font-family: 'Segoe UI', sans-serif;
   }
   tr:nth-child(even) {
     background-color: #dfdfdf;
@@ -36,6 +35,8 @@ table {
 #span-curiosities {
     background-color: yellow;
     font-weight: bold;
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
     display: inline;
 }
 
