@@ -59,13 +59,25 @@
 
 /* Styles the Home page */
 
+.index-content-odd {
+    background-color: #ffffff;
+}
+
+.index-content-even {
+    background-color: #eee4e4;
+}
+
+.index-content-paragraph {
+    font-size: 2vw;
+}
+
 .index-writer {
-    font-size: smaller;
+    font-size: 1vw;
     color: #808080;
 }
 
 .index-quote {
-    font-size: medium;
+    font-size: 2vw;
     font-style: italic;
     font-family: 'Times New Roman', Times, serif;
     color: #000000;
