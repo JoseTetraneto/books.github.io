@@ -27,6 +27,7 @@ table {
 th {
     background-color: mediumseagreen;
     color: white;
+    font-weight: lighter;
 }
 
   tr:nth-child(even) {
