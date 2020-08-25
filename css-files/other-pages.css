@@ -36,6 +36,7 @@ table {
 #span-curiosities {
     background-color: yellow;
     font-weight: bold;
+    display: inline;
 }
 
 #header4-curiosities {
