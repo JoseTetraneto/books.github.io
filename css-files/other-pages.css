@@ -15,7 +15,9 @@
     font-style: italic;
 }
 
+
 /* Styles curiosities page */
+
 table {
     border-collapse: collapse;
     border-spacing: 0;
@@ -23,15 +25,16 @@ table {
     border: 1px solid #ddd;
     text-align: center;
     padding: 5px;
-  }
+}
+
 th {
     background-color: mediumseagreen;
     color: white;
 }
 
-  tr:nth-child(even) {
+tr:nth-child(even) {
     background-color: #dff8f0;
-  }
+}
 
 #header2-curiosities {
     font-style: italic;
@@ -50,12 +53,14 @@ th {
     font-style: italic;
 }
 
-/* Styles facts page */
+
+/* Styles fun facts page */
 
 .carousel-inner img {
     width: 100%;
     height: 100%;
-  }
+}
+
 
 /* Styles signature of all pages*/
 
