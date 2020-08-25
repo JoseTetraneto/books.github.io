@@ -5,72 +5,60 @@
     <title>
         Books
     </title>
-    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css-files\index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css-files\styles.css">
+    <script src="js-files\functions.js"></script>
 </head>
 
 <body>
     <!-- Top Section -->
     <div id="top-section" class="container-fluid">
         <h1 id="top-section-header">Books</h1>
-        <span id="top-section-span">THE BEST PLACE TO GET TO KNOW THEM IS <strong>HERE</strong></span>
+        <span id="top-section-span">THIS IS THE BEST PLACE TO KNOW THEM</span>
     </div>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-        <a class="navbar-brand" href="index.html">Home</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="fun-facts.html">Fun Facts</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="best-sellers.html">Best Sellers</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="recommendations.html">Recommendations</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about-us.html">About Us</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Home</a>
+        <a href="best-sellers.html">Best Sellers</a>
+        <a href="fun-facts.html">Fun Facts</a>
+        <a href="recommendations.html">Recommendations</a>
+        <a href="about-us.html">About Us</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
 
-    <!-- Main Content -->
+    <!-- Index  -->
     <br/>
-    <div class="row">
-        <div id="first-column" class="column">
+    <div class="index-row">
+        <div id="first-column" class="index-column">
             <h2>What is a book?</h2>
             <p>A book is a medium for recording information in the form of writing or images, typically composed of many pages (made of papyrus, parchment, vellum, or paper) bound together and protected by a cover.</p>
         </div>
-        <div id="second-column" class="column">
+        <div id="second-column" class="index-column">
             <h2>A Brief History</h2>
             <p>The history of the book starts with the development of writing, and various other inventions such as paper and printing, and continues through to the modern day business of book printing. The earliest history of books actually predates what
                 would conventionally be called "books" today and begins with tablets, scrolls, and sheets of papyrus. Then hand-bound, expensive, and elaborate manuscripts known as codices appeared. These gave way to press-printed volumes and eventually
                 lead to the mass printed tomes prevalent today. Contemporary books may even have no physical presence with the advent of the e-book. The book also became more accessible to the disabled with the advent of Braille and spoken books.</p>
         </div>
-        <div id="third-column" class="column">
+        <div id="third-column" class="index-column">
             <h2>Wisdom</h2>
-            <q class="column-quote">If you don’t like to read, you haven’t found the right book.</q>
-            <p class="column-writer"> - J.K. Rowling</p>
+            <q class="index-column-quote">If you don’t like to read, you haven’t found the right book.</q>
+            <p class="index-column-writer"> - J.K. Rowling</p>
             <br/>
-            <q class="column-quote">One glance at a book and you hear the voice of another person, perhaps someone dead for 1,000 years. To read is to voyage through time.</q>
-            <p class="column-writer"> - Carl Sagan</p>
+            <q class="index-column-quote">One glance at a book and you hear the voice of another person, perhaps someone dead for 1,000 years. To read is to voyage through time.</q>
+            <p class="index-column-writer"> - Carl Sagan</p>
             <br/>
             <q class="column-quote">There is more treasure in books than in all the pirate’s loot on Treasure Island.</q>
-            <p class="column-writer"> - Walt Disney</p>
+            <p class="index-column-writer"> - Walt Disney</p>
         </div>
     </div>
 
     <!-- Video -->
     <br/>
-    <iframe class="video" width=100% height=400 src="https://www.youtube.com/embed/xqMozc4K4pg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    <iframe class="video" src="https://www.youtube.com/embed/xqMozc4K4pg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
     </iframe>
 
     <!-- Signature -->
