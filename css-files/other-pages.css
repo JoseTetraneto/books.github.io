@@ -24,6 +24,11 @@ table {
     text-align: center;
     padding: 5px;
   }
+th {
+    background-color: mediumseagreen;
+    color: white;
+}
+
   tr:nth-child(even) {
     background-color: #dfdfdf;
   }
