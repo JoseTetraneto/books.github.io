@@ -89,6 +89,7 @@
     .index-content-writer {
         display: inline;
         font-size: 1vw;
+        font-family: 'Times New Roman', Times, serif;
         color: #808080;
     }
     .index-content-quote {
@@ -99,9 +100,11 @@
     }
     .index-content-cell-text h2 {
         font-size: 2.5vw;
+        font-family: 'Times New Roman', Times, serif;
     }
     .index-content-cell-text p {
         font-size: 1.5vw;
+        font-family: 'Times New Roman', Times, serif;
     }
 }
 
@@ -109,6 +112,7 @@
     .index-content-writer {
         display: inline;
         font-size: 1.5vw;
+        font-family: 'Times New Roman', Times, serif;
         color: #808080;
     }
     .index-content-quote {
@@ -119,9 +123,11 @@
     }
     .index-content-cell-text h2 {
         font-size: 3vw;
+        font-family: 'Times New Roman', Times, serif;
     }
     .index-content-cell-text p {
         font-size: 2vw;
+        font-family: 'Times New Roman', Times, serif;
     }
 }
 
@@ -129,6 +135,7 @@
     .index-content-writer {
         display: inline;
         font-size: 2vw;
+        font-family: 'Times New Roman', Times, serif;
         color: #808080;
     }
     .index-content-quote {
@@ -139,9 +146,11 @@
     }
     .index-content-cell-text h2 {
         font-size: 4vw;
+        font-family: 'Times New Roman', Times, serif;
     }
     .index-content-cell-text p {
         font-size: 2.5vw;
+        font-family: 'Times New Roman', Times, serif;
     }
 }
 
