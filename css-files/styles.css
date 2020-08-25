@@ -154,6 +154,44 @@
     }
 }
 
+/* Styles best-sellers page */
+
+.sellers-content-table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 5px;
+    overflow-x: auto;
+}
+
+.sellers-content-table th {
+    background-color: mediumseagreen;
+    color: white;
+}
+
+.sellers-content-table tr:nth-child(even) {
+    background-color: #dff8f0;
+}
+
+.sellers-content h2 {
+    font-style: italic;
+}
+
+.sellers-content-span {
+    background-color: yellow;
+    font-weight: bold;
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+    display: inline;
+}
+
+.sellers-content h4 {
+    color: rgb(39, 39, 39);
+    font-style: italic;
+}
+
 
 /* Styles signature */
 

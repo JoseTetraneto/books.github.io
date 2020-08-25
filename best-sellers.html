@@ -5,51 +5,33 @@
     <title>
         Best Sellers
     </title>
-    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css-files/other-pages.css">
+    <link rel="stylesheet" href="css-files\styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js-files\functions.js"></script>
 </head>
 
 <body>
-    <!-- Top Section -->
-    <div id="top-section" class="container-fluid">
-        <h1 id="top-section-header">Books</h1>
-        <span id="top-section-span">THE BEST PLACE TO GET TO KNOW THEM IS <strong>HERE</strong></span>
-    </div>
-
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-        <a class="navbar-brand" href="index.html">Home</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="fun-facts.html">Fun Facts</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="best-sellers.html">Best Sellers</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="recommendations.html">Recommendations</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about-us.html">About Us</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
-    <!-- Page Content -->
-    <div class="container-fluid">
-        <h2 id="header2-curiosities">Top Ranking</h2>
-        <p id="paragraph-curiosities">In this page you can find some information about the best sellers of all time! Below the best selling books of all time are separated in two categories, those which sold more the a whopping one hundred million copies and those in between fifity
-            and a one hundred million copies. <br/><span id="span-curiosities">Note: these informations are an aproximation and shouldn`t be taken literally.</span></p><br/>
-        <h4 id="header4-curiosities"><u>More than 100 million copies</u></h4>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Home</a>
+        <a href="best-sellers.html">Best Sellers</a>
+        <a href="fun-facts.html">Fun Facts</a>
+        <a href="recommendations.html">Recommendations</a>
+        <a href="about-us.html">About Us</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
     </div>
-    <table>
+
+    <!-- Content -->
+    <div class="sellers-content">
+        <h2>Top Ranking</h2>
+        <p>In this page you can find some information about the best sellers of all time! Below the best selling books of all time are separated in two categories, those which sold more the a whopping one hundred million copies and those in between fifity
+            and a one hundred million copies. <br/><span class="sellers-content-span">Note: these informations are an aproximation and shouldn`t be taken literally.</span></p><br/>
+        <h4><u>More than 100 million copies</u></h4>
+    </div>
+    <table class="sellers-table">
         <tr>
             <th>Title</th>
             <th>Author(s)</th>
@@ -123,10 +105,10 @@
             <td>Family Saga</td>
         </tr>
     </table><br/><br/>
-    <div class="container-fluid">
-        <h4 id="header4-curiosities"><u>Between 50 and 100 million copies</u></h4>
+    <div class="sellers-content">
+        <h4><u>Between 50 and 100 million copies</u></h4>
     </div>
-    <table>
+    <table class="sellers-content-table">
         <tr>
             <th>Title</th>
             <th>Author(s)</th>
