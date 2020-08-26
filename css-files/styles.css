@@ -191,6 +191,10 @@ body {
 
 /* Styles best-sellers page */
 
+.sellers-content-master {
+    padding: 10px;
+}
+
 .sellers-content-container {
     overflow-x: auto;
 }
