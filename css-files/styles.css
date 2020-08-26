@@ -366,6 +366,7 @@ body {
 
 .about-container img {
     width: 100%;
+    height: fit-content;
 }
 
 .top-left {
