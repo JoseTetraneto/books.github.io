@@ -269,21 +269,21 @@ body {
     .sellers-content h4 {
         color: rgb(39, 39, 39);
         font-style: italic;
-        font-size: 3vw;
-        font-family: 'Times New Roman', Times, serif;
-    }
-    .sellers-content h2 {
         font-size: 4vw;
         font-family: 'Times New Roman', Times, serif;
     }
+    .sellers-content h2 {
+        font-size: 5vw;
+        font-family: 'Times New Roman', Times, serif;
+    }
     .sellers-content p {
-        font-size: 2.5vw;
+        font-size: 3vw;
         font-family: 'Times New Roman', Times, serif;
     }
     .sellers-content-span {
         background-color: yellow;
         font-weight: bold;
-        font-size: 2vw;
+        font-size: 2.5vw;
         font-family: 'Times New Roman', Times, serif;
         display: inline;
     }
