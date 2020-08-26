@@ -57,10 +57,12 @@
 
 .index-content-odd {
     background-color: #ffffff;
+    padding: 10px;
 }
 
 .index-content-even {
     background-color: #eee4e4;
+    padding: 10px;
 }
 
 .index-content-cell-text {
@@ -212,7 +214,6 @@
         font-family: 'Times New Roman', Times, serif;
     }
     .sellers-content h2 {
-        font-style: italic;
         font-size: 2.5vw;
         font-family: 'Times New Roman', Times, serif;
     }
@@ -237,7 +238,6 @@
         font-family: 'Times New Roman', Times, serif;
     }
     .sellers-content h2 {
-        font-style: italic;
         font-size: 3vw;
         font-family: 'Times New Roman', Times, serif;
     }
@@ -262,7 +262,6 @@
         font-family: 'Times New Roman', Times, serif;
     }
     .sellers-content h2 {
-        font-style: italic;
         font-size: 4vw;
         font-family: 'Times New Roman', Times, serif;
     }
