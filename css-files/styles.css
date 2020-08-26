@@ -358,10 +358,14 @@ body {
 
 /* Styles About me page */
 
-.container {
+.about-container {
     position: relative;
     text-align: center;
     color: black;
+}
+
+.about-container img {
+    width: 100%;
 }
 
 .top-left {
