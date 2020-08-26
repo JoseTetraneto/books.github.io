@@ -111,6 +111,10 @@
         font-size: 2.5vw;
         font-family: 'Times New Roman', Times, serif;
     }
+    .index-content-even p {
+        font-size: 1.5vw;
+        font-family: 'Times New Roman', Times, serif;
+    }
 }
 
 @media screen and (max-width: 1366px) {
@@ -136,6 +140,10 @@
     }
     .index-content-even h2 {
         font-size: 3vw;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .index-content-even p {
+        font-size: 2vw;
         font-family: 'Times New Roman', Times, serif;
     }
 }
@@ -164,6 +172,10 @@
     }
     .index-content-even h2 {
         font-size: 4vw;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .index-content-even p {
+        font-size: 2.5vw;
         font-family: 'Times New Roman', Times, serif;
     }
 }
