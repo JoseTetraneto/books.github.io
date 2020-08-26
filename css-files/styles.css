@@ -300,6 +300,19 @@ body {
 
 /* Styles Recommendations page */
 
+.recommendations-content {
+    overflow-x: auto;
+}
+
+.recommendations-content td {
+    padding: 5px;
+}
+
+.recommendations-content table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .flip-card {
     background-color: transparent;
     width: 300px;
@@ -336,8 +349,8 @@ body {
 }
 
 .flip-card-back {
-    background-color: #2980b9;
-    color: white;
+    background-color: white;
+    color: black;
     transform: rotateY(180deg);
 }
 
