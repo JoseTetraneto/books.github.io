@@ -182,22 +182,25 @@
 
 /* Styles best-sellers page */
 
-.sellers-content-table {
+.sellers-content-container {
+    overflow-x:auto;
+}
+
+.sellers-content-container-table {
     border-collapse: collapse;
     border-spacing: 0;
     width: 100%;
     border: 1px solid #ddd;
     text-align: center;
     padding: 5px;
-    overflow-x: auto;
 }
 
-.sellers-content-table th {
+.sellers-content-container-table th {
     background-color: mediumseagreen;
     color: white;
 }
 
-.sellers-content-table tr:nth-child(even) {
+.sellers-content-container-table tr:nth-child(even) {
     background-color: #dff8f0;
 }
 
