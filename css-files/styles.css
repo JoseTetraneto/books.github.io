@@ -352,6 +352,7 @@ body {
     background-color: white;
     color: black;
     transform: rotateY(180deg);
+    padding-top: 20px;
 }
 
 
