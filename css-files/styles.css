@@ -359,7 +359,7 @@ body {
 /* Styles About me page */
 
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("image-files\about1.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://lh3.googleusercontent.com/PUU2o4qKJ_7wpHv07Md75kMCFj7l5Cmq7qrZzcHVDgyTEYKRpC3Qjz0EALNZOq0DIOTfyEl9GtbMC4FUOLJQUB-eIGB0t9o3-iSJAeSeNiUzjUhP5LGdqn6uVgZnJKlAebs_pj1wwLysLWE_7PLzILdsFAml1yf5zJZ-6oi8nB7puqW662m1aF5LxsMpXwC9G44tT9ELuMpon6MkvgXV3sEXNWknnBY9ezC1NtkZlM6thJuuLgjtIo3uH6_Mg1YcvZ-vlJJKW5cur_qKMCbIeYCWriE0C4xzzs3diZo80KkHfE593y1w0HGQ6D5GqVi8lkkdeUSLyXKXMzSzofIfzitpiePeeK7DAThljWI8Qz-IcUO8d541jDkzxn1uy6rIsND75qo8mFLiTr1EitAmlbJnnf30VDbaITJCSQKHPwXwcwSFqwjmBesZBWB3_YTgpxDH90VID5Sah0P8L9usO6JjNVDtQvhc-HHMklV6tAq8lTtPF9soqjpPA-uWZ7nPvLB2HRldfRjtM6-19AcCx2nWJ0S-z5n4EYY5Y2fFtsqCe3h9ILfa9EAVVh5R5rxabD4rwoZNfoRnwm2GmxQuiHFIviiW3fjGjrUvHV4WcoIFClgSlpPUK2ZLokFFS2hFJT7fbq0XdPtmKrXkRPyYhZ62C3H5ydm9-JiXk6EHtC8W97JFsdK8l4aV1ZUuisI=w1210-h908-no?authuser=0");
     height: 50%;
     background-position: center;
     background-repeat: no-repeat;
